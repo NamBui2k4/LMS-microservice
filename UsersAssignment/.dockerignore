@@ -1,0 +1,16 @@
+# Bỏ qua node_modules vì Docker sẽ tự chạy npm install ở bên trong
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Bỏ qua thư mục build cũ ở máy local
+dist/
+
+# Bỏ qua các file môi trường local
+.env
+.git/
+.vscode/
+
+# Bỏ qua các file rác của hệ điều hành
+.DS_Store
+Thumbs.db
